@@ -37,7 +37,6 @@
                 </div>
             </div>
         </nav>
-
         <!-- Hero Carrusel-->
         <div class="container py-5 mt-3">
             <div class="row >
@@ -201,9 +200,12 @@
         </div>
     </section>
     <section id="testimonios">
-        <div class="container">
-            <div class="row">
-                <div class="testimonial-card">
+        <div class="container pt-5">
+            <div class="text-center">
+                <h2>Testimonios</h2>
+            </div>
+            <div class="row testimonials-box">
+                <div class="testimonial-card col-12 col-sm-12 col-md-4">
                     <div class="testimonial__text">
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta aliquam iste sapiente enim
                             illum dolores odio! Accusamus, labore rerum cum corporis obcaecati perspiciatis amet quas
@@ -211,6 +213,26 @@
                     </div>
                     <div class="testimonial__image">
                         <img src="assets/img/testimonio1.jpg" class="image--rounded"   alt="">
+                    </div>
+                </div>
+                <div class="testimonial-card col-12 col-sm-12 col-md-4">
+                    <div class="testimonial__text">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta aliquam iste sapiente enim
+                            illum dolores odio! Accusamus, labore rerum cum corporis obcaecati perspiciatis amet quas
+                            quisquam aut animi minus dicta!</p>
+                    </div>
+                    <div class="testimonial__image">
+                        <img src="assets/img/testimonio2.jpg" class="image--rounded"   alt="">
+                    </div>
+                </div>
+                <div class="testimonial-card col-12 col-sm-12 col-md-4">
+                    <div class="testimonial__text">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta aliquam iste sapiente enim
+                            illum dolores odio! Accusamus, labore rerum cum corporis obcaecati perspiciatis amet quas
+                            quisquam aut animi minus dicta!</p>
+                    </div>
+                    <div class="testimonial__image">
+                        <img src="assets/img/testimonio3.jpg" class="image--rounded"   alt="">
                     </div>
                 </div>
             </div>
@@ -229,67 +251,62 @@
                 <form action="" class="col-12 col-md-6 mb-5">
                     <div class="row">
                         <div class="col mb-3">
-                            <input type="text" class="form-control border-success shadow-sm" placeholder="Nombre"
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Tu nombre y apellido"></i>
+
+                            <input type="text" class="form-control border-light shadow-sm bg-light" placeholder="Nombre"
                                 aria-label="Nombre">
                         </div>
                         <div class="col mb-3">
-                            <input type="text" class="form-control border-success shadow-sm" placeholder="Apellido"
-                                aria-label="Apellido">
+                            <label for="mensaje" class="form-label">Mail</label>
+                            <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Ejemplo: nombre@gmail.com"></i>
+
+                        <input type="email" class="form-control border-light shadow-sm bg-light" id="mail"
+                            placeholder="Tu mail">
                         </div>
                     </div>
                     <div class="mb-3">
-                        <input type="email" class="form-control border-success shadow-sm" id="mail"
-                            placeholder="Tu mail">
+                        
                     </div>
                     <div class="mb-3">
-                        <label for="mensaje" class="form-label">Escribe tu mensaje</label>
-                        <textarea class="form-control border-success text-dark shadow-sm" id="mensaje"
+                        <label for="mensaje" class="form-label">Mensaje</label>
+                        <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Escribe tu mensaje"></i>
+                        <textarea class="form-control border-light text-dark shadow-sm bg-light" id="mensaje"
                             rows="7"></textarea>
                     </div>
-                    <input class="btn btn-primary text-light fw-medium shadow-sm" type="submit" value="Enviar">
+                    <input class="btn btn-light fw-medium shadow-sm" type="submit" value="Enviar">
                 </form>
                 <!-- Datos contacto -->
                 <div class="col-12 col-md-6 d-flex flex-column row-gap-3 ps-5">
                     <div class="contact d-flex gap-4 align-items-center">
                         <i class="fa-brands fa-whatsapp"></i>
-                        <a href="https://wa.me/56985054979"
-                            class="text-decoration-none text-dark link-success">Whatsapp</a>
+                        <a href="https://wa.me/5697654492"
+                            class="text-decoration-none  text-light">Whatsapp</a>
                     </div>
                     <div class=" contact d-flex gap-4 align-items-center ">
                         <i class="fa-solid fa-envelope"></use></i>
-                        <a class="text-decoration-none text-dark link-success"
-                            href="mailto:hola@palomapaloma.cl">hola@palomapaloma.cl</a>
+                        <a class="text-decoration-none  text-light"
+                            href="mailto:hola@palomapaloma.cl">contacto@viajeschile.cl</a>
                     </div>
                     <div class="contact d-flex gap-4 align-items-center">
                         <i class="fa-brands fa-linkedin"></i>
-                        <a href="https://www.linkedin.com/in/paloma-rivera-orellana-1bb348190/"
-                            class="text-decoration-none text-dark link-success">Linkedin</a>
+                        <a href="https://linkedin.com"
+                            class="text-decoration-none text-light">Linkedin</a>
                     </div>
                     <div class="contact d-flex gap-4 align-items-center">
-                        <i class="fa-brands fa-github"></i>
-                        <a href="https://github.com/SingularPigeon"
-                            class="text-decoration-none text-dark link-success">Github</a>
+                        <i class="fa-brands fa-instagram"></i>
+                        <a href="https://instagram.com"
+                            class="text-decoration-none text-light">Instagram</a>
                     </div>
                 </div>
             </div>
     </section>
     <!-- Footer -->
     <footer>
-        <div class="container-fluid  bg-info bg-opacity-75">
+        <div class="container-fluid"data-bs-theme="dark">
             <div class="row d-flex align-items-center text-center py-4">
-                <div class=" col-md-6 fs-4">
+                <div class="col fs-4">
                     <a class="navbar-brand" href="index.html"> Viajes Chile</a>
-                </div>
-                <div class=" social col-md-6 fs-3">
-                    <a class="text-decoration-none text-white" href="https://instagram.com" target="_blank">
-                        <i class="fa-brands fa-instagram p-2"></i>
-                    </a>
-                    <a class="text-decoration-none text-white" href="https://x.com" target="_blank">
-                        <i class="fa-brands fa-x-twitter p-2"></i>
-                    </a>
-                    <a class="text-decoration-none text-white" href="https://facebook.com" target="_blank">
-                        <i class="fa-brands fa-square-facebook p-2"></i>
-                    </a>
                 </div>
             </div>
         </div>
