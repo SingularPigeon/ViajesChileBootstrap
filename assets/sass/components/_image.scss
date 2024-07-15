@@ -1,0 +1,13 @@
+//Imagen testimonial
+.image {
+  width: 8rem;
+  height: 8rem;
+
+  &--rounded {
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+    border-radius: 50%;
+    border: solid 1px #fff;
+  }
+}
