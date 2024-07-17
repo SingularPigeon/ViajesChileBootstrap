@@ -19,6 +19,11 @@
   &__title {
     &--marquer {
       color: $beige;
+      padding-top: 1rem;
     }
   }
+}
+
+.card {
+  min-width:20rem;
 }
